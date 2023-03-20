@@ -17,10 +17,12 @@
     <!-- styles -->
     <style>
       body {
-        font-family: "Dosis", sans-serif;
+        font-family: "Dosis", <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@600&display=swap" rel="stylesheet">;
         margin: 2em;
-        background-color: #000;
-        color: #fff;
+        background-color: #0060FA;
+        color: #65F56D;
         font-size: 1.2em;
       }
       h1 {
@@ -39,7 +41,7 @@
     <div id="poem"></div>
     <script>
       // set up the lists of words
-      const subjects = "Robert, Tim, David, Boys".split(","),
+      const subjects = "Robert, Tim, David, a boy".split(","),
         verbs = "writes,sings,dreams,wanders,plays,whispers".split(","),
         objects = "Richard,Montgomery,Sarah,James,the hordes".split(",");
       // set up the counter
